@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;1,300&family=Yuji+Syuku&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    background-color: #bba48d;
+}
+
+.intro-image {
+    background-attachment: fixed;
+    background-image:url('../img/käsitöö.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    clip-path: polygon(53% 8%, 100% 0, 100% 43%, 100% 84%, 79% 100%, 24% 100%, 0 87%, 0% 43%, 0 0);
+    
+    
+    
+    
+}
+
+.intro-image__text a {
+    background-color: #ceb8aa84;
+
+    border: 2px solid #dfd5cb;
+    color: #915a23;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    transition: all 1s ease-in-out;
+
+
+}
+.intro-image__text a:hover{
+    transform: scale(1.25);
+}
+.intro-text{
+    background-color: #bba48d;
+    clip-path: polygon(53% 8%, 100% 0, 100% 43%, 100% 84%, 79% 100%, 24% 100%, 0 87%, 0% 43%, 0 0);
+    color:#3d1b07;
+    height: 250px;
+    display: flex;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15rem;
+
+}
+.text-solid h3 {
+font-size: 3rem;
+margin-bottom: 1rem;
+}
+
+.packaging-image{
+    background-attachment: fixed;
+    background-image: url('../img/tr.jpg');
+    background-size: cover;
+    background-position: bottom;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.packaging-image__text a {
+    background-color: #582c1284;
+    
+    border: 2px solid #dfd5cb;
+    color: #d5791d;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+.packaging-image__text :hover{
+    transform: scale(1.25);
+}
+
+.packaging-text{
+    background-color: #bba48d;
+    color:#3d1b07;
+    height: 250px;
+    display: flex;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15rem;  
+}
+.packaging_text__textbox h3 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.tutorials-image{
+    background-attachment: fixed;
+    background-image: url('../img/rohe.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.tutorials-image__text a{
+    background-color: #913b067b;
+    
+    border: 2px solid #dfd5cb;
+    color: #c4b3a2;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+.tutorials-image__text :hover{
+    transform: scale(1.25);
+}
+
+.footer {
+    height: 250px;
+    background-color: rgb(91, 85, 48);
+    color: rgb(251, 8, 8);
+    font-size: 2rem;
+    padding-top: 2rem;
+}
+.footer ul li {
+    display: inline-block;
+    margin: 1rem;
+}
+.footer ul li a{
+    color: burlywood;
+    text-decoration: none;
+}
+.footer ul li:hover{
+    
+    transform: scale(1.5);
+}
